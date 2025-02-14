@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dark {
+  background: rgb(107 114 128 / var(--tw-bg-opacity, 1));
+}
+
+.span-wrap {
+  span {
+    color: red;
+  }
+}

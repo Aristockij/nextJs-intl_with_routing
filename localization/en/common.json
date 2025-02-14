@@ -1,0 +1,28 @@
+{
+  "HomePage": {
+    "locale": "en",
+    "title": "Hello!",
+    "text": "one project - several languages with routing, pay attention to the middleware.ts file and the i18n folder",
+    "descr": "note: to change the language use useRouter from @/i18n/routing, also all links to other pages should go through the Link component from @/i18n/routing",
+    "subtext": "But remember! next-intl does not support arrays inside objects, instead use key-value pairs to iterate as shown below",
+    "cards": {
+      "0": {
+        "title": "first card",
+        "text": "this is test card for example how you can iterate of objects 1"
+      },
+      "1": {
+        "title": "second card",
+        "text": "this is test card for example how you can iterate of objects 2"
+      },
+      "2": {
+        "title": "third card",
+        "text": "this is test card for example how you can iterate of objects 3"
+      }
+    },
+    "btn": {
+      "light": "Light",
+      "dark": "dark"
+    },
+    "stateOfLang": "It is also possible to change certain words depending on which language was selected inside the client component."
+  }
+}
