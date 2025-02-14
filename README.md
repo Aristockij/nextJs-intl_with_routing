@@ -9,3 +9,7 @@
 3) **Important:** Make sure to add `middleware.ts` to your project
 4) Add as many languages as you need in the `localization` folder  
 5) Run `npm run dev` to start development mode
+
+
+this is ru version: https://vercel.com/aristockijs-projects/next-js-intl-without-routing
+this is en version: https://next-js-intl-without-routing-en.vercel.app/
