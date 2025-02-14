@@ -11,5 +11,4 @@
 5) Run `npm run dev` to start development mode
 
 
-this is ru version: https://vercel.com/aristockijs-projects/next-js-intl-without-routing
-this is en version: https://next-js-intl-without-routing-en.vercel.app/
+#### try this: https://next-js-intl-with-routing.vercel.app/
